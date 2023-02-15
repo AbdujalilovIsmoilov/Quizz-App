@@ -20,10 +20,13 @@ D) ${question.answers.d}`;
 }
 
 function calculateScore(answer, realAnswer) {
-  if (answer === realAnswer) {
+  if (
+    answer == realAnswer ||
+    answer.toUpperCase() === realAnswer.toUpperCase()
+  ) {
     alert("Correct answer");
     score++;
-  } else alert("Wrong answer");
+  } else alert(`Wrong answer: Truthy value:  ${realAnswer}`);
 }
 
 function showResult() {

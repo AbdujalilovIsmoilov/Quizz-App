@@ -3,7 +3,7 @@
 const questions = [
   {
     question: "V8 dvigatelda nechta componentda bor ?",
-    answer: "d".toLowerCase(),
+    answer: "d",
     answers: {
       a: "3 ta",
       b: "4 ta",
@@ -13,7 +13,7 @@ const questions = [
   },
   {
     question: "JavaScript yaratilganda uni birinchi nomi nima bo'lgan ?",
-    answer: "c".toLowerCase(),
+    answer: "c",
     answers: {
       a: "TypeScript",
       b: "JavaScript Engine",
@@ -23,7 +23,7 @@ const questions = [
   },
   {
     question: "Undefined nima ?",
-    answer: "b".toLowerCase(),
+    answer: "b",
     answers: {
       a: "Variable ni redeclare qilish",
       b: "Variable ni declare qilish",
@@ -33,7 +33,7 @@ const questions = [
   },
   {
     question: "undefined / 10 = ? javobda nima chiqadi ?",
-    answer: "c".toLowerCase(),
+    answer: "c",
     answers: {
       a: 1,
       b: 0,
@@ -43,7 +43,7 @@ const questions = [
   },
   {
     question: "((Number() + [].length) * 10) / 2 ?",
-    answer: "b".toLowerCase(),
+    answer: "b",
     answers: {
       a: 1,
       b: 0,
@@ -54,7 +54,7 @@ const questions = [
   {
     question:
       "TypeScript da yozilgan kod JavaScript ga transpilyatsiya qilinadimi ?",
-    answer: "c".toLowerCase(),
+    answer: "c",
     answers: {
       a: "Yo'q adashdiz Javaga transpilyatsiya qilinadi",
       b: "Yo'q",
@@ -64,7 +64,7 @@ const questions = [
   },
   {
     question: "JavaScript da Data Type nechta ?",
-    answer: "c".toLowerCase(),
+    answer: "c",
     answers: {
       a: "5 ta",
       b: "10 ta",
@@ -74,7 +74,7 @@ const questions = [
   },
   {
     question: "V8 ta 2 ta component bor. Ular qaysilar ?",
-    answer: "a".toLowerCase(),
+    answer: "a",
     answers: {
       a: "Heap and Call stack",
       b: "Java and Spring",
@@ -84,7 +84,7 @@ const questions = [
   },
   {
     question: "8 / 0 ?",
-    answer: "a".toLowerCase(),
+    answer: "a",
     answers: {
       a: "Infinity",
       b: 0,
@@ -94,7 +94,7 @@ const questions = [
   },
   {
     question: "TypeScript qaysi kompaniyada chiqarilgan ?",
-    answer: "d".toLowerCase(),
+    answer: "d",
     answers: {
       a: "Google",
       b: "Netlifx",
